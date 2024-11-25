@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen.MainActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TODOLIST"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Id:"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/edtid"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Name:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Mo ta:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtMota"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Gia:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:textStyle="bold"
+            android:text="Add"
+            />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:text="Update"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:text="Delete"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lvToDoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+</LinearLayout>

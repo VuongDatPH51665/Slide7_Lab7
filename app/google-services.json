@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997105253494",
+    "project_id": "organic-gecko-440801-s8",
+    "storage_bucket": "organic-gecko-440801-s8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997105253494:android:1d6f2b9f4db65805ce3357",
+        "android_client_info": {
+          "package_name": "com.vn.lab1_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyqxyB_KCU2GojfmjQ79GtRNF4EoCCvLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
